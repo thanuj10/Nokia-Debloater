@@ -41,6 +41,28 @@ Simple, Because 1. I do not want any dead app that previously had an history of 
 
 | If you are running adb for the first time, You might get an error like this - *No devices/emulators found*, If you did, Then please ensure that you have tapped the ok option on the prompt from your phone. 
 
+## F.A.Q
+
+1. Do I need root, Unlocked bootloader etc?
+> No
+
+2. What can I expect from the debloating measures?
+> Better Privacy and security, Possibly better battery life and performance
+
+3. Can I revert the changes?
+> Yes, You can revert by either manually installing all the apps debloated by the script or by factory resetting your device. An option to revert back the changes will come in the future, Stay tuned!
+
+4. Will I lose data by debloating?
+> No you will not. 
+
+5. Are there possibilities of bricking my device?
+> Yes, But it's rare and you need not be worried because I will test every version before releasing it on GitHub.
+
+## TO-Do List 
+
+- [ ] Implement a way to re-install the debloated apps
+- [ ] Add options to debloat google apps
+
 ## Further reading 
 
 https://dontkillmyapp.com/nokia
@@ -50,3 +72,5 @@ https://medium.com/@roundedeverett/who-is-nokia-cb24ecbc52a9
 https://community.phones.nokia.com/discussion/51246/tapping-into-android-pies-adaptive-battery-for-optimum-battery-performance
 (**This is the official forum announcement stating they've disabled the evenwell apps, But did they?**)
 https://www.reddit.com/r/Nokia7Plus/comments/apql58/ok_i_have_to_admit_disabling_evenwell_power_apps/
+
+
