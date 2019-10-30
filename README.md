@@ -48,5 +48,5 @@ https://dontkillmyapp.com/nokia
 https://nokiamob.net/2019/08/18/rumor-hmd-plans-to-remove-evenwell-software-from-all-nokia-devices/
 https://medium.com/@roundedeverett/who-is-nokia-cb24ecbc52a9
 https://community.phones.nokia.com/discussion/51246/tapping-into-android-pies-adaptive-battery-for-optimum-battery-performance
-(**Above is the official forum announcement stating they've disabled the evenwell apps, But did they?**)
+(**This is the official forum announcement stating they've disabled the evenwell apps, But did they?**)
 https://www.reddit.com/r/Nokia7Plus/comments/apql58/ok_i_have_to_admit_disabling_evenwell_power_apps/
