@@ -1,0 +1,93 @@
+@ECHO OFF
+
+echo Hello! This script will debloat your Nokia device(s) off all the unwanted evenwell apps/overlays.
+pause.
+goto menu
+
+:menu
+echo.
+echo.
+echo.
+echo.   = Menu =
+echo.
+echo.
+echo  [1] Debloat your phone
+echo  [2] Do it later
+echo.
+echo.
+echo.
+set /p choice= Enter your option: 
+
+if '%choice%'=='1' goto Debloat
+if '%choice%'=='2' goto exit
+
+goto menu
+
+----------------------------------------------------
+:Debloat
+cls
+echo.
+echo The debloating process will now start. Please be patient.
+echo.
+echo.
+echo.
+echo While this script deletes most of the evenwell apps, Some of them will still be in the system. Mostly because they seem important.
+echo.
+echo.
+pause
+
+adb.exe devices
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService
+adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.bboxsbox
+adb.exe shell pm uninstall --user 0 com.evenwell.bboxsbox.app
+adb.exe shell pm uninstall --user 0 com.evenwell.custmanager
+adb.exe shell pm uninstall --user 0 com.evenwell.custmanager.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.dataagent
+adb.exe shell pm uninstall --user 0 com.evenwell.dataagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl
+adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.mappartner
+adb.exe shell pm uninstall --user 0 com.evenwell.nps
+adb.exe shell pm uninstall --user 0 com.evenwell.nps.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor
+adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.pushagent
+adb.exe shell pm uninstall --user 0 com.evenwell.pushaagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp
+adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.stbmonitor
+adb.exe shell pm uninstall --user 0 com.evenwell.stbmonitor.data.overlay.base.s600ww
+adb.exe reboot
+
+echo.
+echo The debloating is now finished. Rebooting your device.
+echo.
+echo.
+echo.
+echo You can now close this window. 
+echo.
+pause
+
+
+
+-----------------------------------------------------
+
+:exit
+cls
+echo.
+echo You chose to do it later. 
+echo.
+pause
+
+------------------------------------------------------
+
+
+
