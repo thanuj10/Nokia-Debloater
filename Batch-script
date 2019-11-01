@@ -34,7 +34,9 @@ echo.
 echo While this script deletes most of the evenwell apps, Some of them will still be in the system. Mostly because they seem important.
 echo.
 echo.
+echo.
 pause
+exit
 
 adb.exe devices
 adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool
