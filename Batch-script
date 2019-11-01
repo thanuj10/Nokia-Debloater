@@ -37,34 +37,41 @@ echo.
 pause
 
 adb.exe devices
-adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration
-adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService
-adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService.data.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.bboxsbox
-adb.exe shell pm uninstall --user 0 com.evenwell.bboxsbox.app
-adb.exe shell pm uninstall --user 0 com.evenwell.custmanager
-adb.exe shell pm uninstall --user 0 com.evenwell.custmanager.data.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.dataagent
-adb.exe shell pm uninstall --user 0 com.evenwell.dataagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool
 adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl
-adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.mappartner
-adb.exe shell pm uninstall --user 0 com.evenwell.nps
-adb.exe shell pm uninstall --user 0 com.evenwell.nps.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor
-adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor.overlay.base.s600ww
-adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3
-adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.pushagent
-adb.exe shell pm uninstall --user 0 com.evenwell.pushaagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.pushagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations
+adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizstions.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp
 adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor
+adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.telecom.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.nps
+adb.exe shell pm uninstall --user 0 com.evenwell.nps.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.stbmonitor
 adb.exe shell pm uninstall --user 0 com.evenwell.stbmonitor.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect
+adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.dataagent
+adb.exe shell pm uninstall --user 0 com.evenwell.dataagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.custmanager
+adb.exe shell pm uninstall --user 0 com.evenwell.custmanager.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.CPClient
+adb.exe shell pm uninstall --user 0 com.evenwell.CPClient.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService
+adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.pushagent
+adb.exe shell pm uninstall --user 0 com.evenwell.pushagent.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning
+adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl
+adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
 adb.exe reboot
 
 echo.
