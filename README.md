@@ -67,6 +67,11 @@ Simple, Because 1. I do not want any dead app that previously had an history of 
 
 ## Screenshots
 
+![Screenshot (1)](https://user-images.githubusercontent.com/43717642/68009819-f8c6e380-fca8-11e9-8cb3-9071807dc99e.png)
+
+![Screenshot (2)](https://user-images.githubusercontent.com/43717642/68009823-fb293d80-fca8-11e9-828f-5c0fae57f3c4.png)
+
+![Screenshot (3)](https://user-images.githubusercontent.com/43717642/68009826-fc5a6a80-fca8-11e9-9756-4586e4f8577e.png)
 
 
 ## Further reading 
