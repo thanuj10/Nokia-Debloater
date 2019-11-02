@@ -64,6 +64,7 @@ Simple, Because 1. I do not want any dead app that previously had an history of 
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
 - [ ] Add options for rebooting to bootloader and recovery mode
+- [ ] Add option to turn of Duraspeed on Mediatek chipset based devices
 
 ## Screenshots
 
