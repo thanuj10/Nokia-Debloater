@@ -1,3 +1,6 @@
+##PROJECT ON HOLD TEMPORARILY AS MY PC BROKE. 
+
+
 # Nokia-Debloater
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
