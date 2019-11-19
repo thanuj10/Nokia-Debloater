@@ -7,19 +7,19 @@ goto menu
 :menu
 echo.
 echo.
-echo.
 echo.   = Menu =
 echo.
 echo.
 echo  [1] Debloat your phone
-echo  [2] Do it later
-echo.
+echo  [2] Disable Duraspeed(For Mediatek devices only)
+echo  [3] Do it later
 echo.
 echo.
 set /p choice= Enter your option: 
 
 if '%choice%'=='1' goto Debloat
-if '%choice%'=='2' goto exit
+if '%choice%'=='2' goto Disable Duraspeed
+if '%choice%'=='3' goto exit
 
 goto menu
 
@@ -34,9 +34,7 @@ echo.
 echo While this script deletes most of the evenwell apps, Some of them will still be in the system. Mostly because they seem important.
 echo.
 echo.
-echo.
 pause
-exit
 
 adb.exe devices
 adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool
@@ -74,20 +72,34 @@ adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning
 adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl
 adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
-adb.exe reboot
 
 echo.
-echo The debloating is now finished. Rebooting your device.
+echo.
+echo The debloating is now finished. Please Reboot your devices
 echo.
 echo.
-echo.
-echo You can now close this window. 
-echo.
-pause
-
+exit
 
 
 -----------------------------------------------------
+:Disable Duraspeed
+cls
+echo.
+echo Duraspeed will now be disabled, Please don't restart your phone.
+echo.
+pause
+
+adb.exe devices
+adb.exe shell settings put global setting.duraspeed.enabled 0
+
+echo.
+echo Duraspeed is now disabled
+echo.
+echo.
+pause
+exit
+
+-------------------------------------------------------
 
 :exit
 cls
@@ -95,6 +107,7 @@ echo.
 echo You chose to do it later. 
 echo.
 pause
+
 
 ------------------------------------------------------
 
