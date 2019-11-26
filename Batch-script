@@ -42,7 +42,7 @@ adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.pushagent
 adb.exe shell pm uninstall --user 0 com.evenwell.pushagent.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations
-adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizstions.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp
 adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor
@@ -72,10 +72,30 @@ adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning
 adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl
 adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.PowerMonitor.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.d.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.nps.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.AprUploadService.data.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.partnerbrowsercustomizations.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.telecom.data.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.custmanager.data.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.stbmonitor.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.retaildemoapp.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.CPClient.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.DeviceMonitorControl.data.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.DbgCfgTool.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.dataagent.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.mappartner
+adb.exe shell pm uninstall --user 0 com.evenwell.pushagent.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.base
 
 echo.
 echo.
-echo The debloating is now finished. Please Reboot your devices
+echo The debloating is now finished. Press enter to reboot your device and close this window.
+pause
+adb.exe reboot
 echo.
 echo.
 exit
@@ -93,7 +113,7 @@ adb.exe devices
 adb.exe shell settings put global setting.duraspeed.enabled 0
 
 echo.
-echo Duraspeed is now disabled
+echo Duraspeed is now disabled. Everytime you restart your phone, Please open the script back and run this command. 
 echo.
 echo.
 pause
@@ -107,6 +127,7 @@ echo.
 echo You chose to do it later. 
 echo.
 pause
+exit
 
 
 ------------------------------------------------------
