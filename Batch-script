@@ -90,6 +90,10 @@ adb.exe shell pm uninstall --user 0 com.evenwell.mappartner
 adb.exe shell pm uninstall --user 0 com.evenwell.pushagent.overlay.base
 adb.exe shell pm uninstall --user 0 com.evenwell.managedprovisioning.overlay.base
 adb.exe shell pm uninstall --user 0 com.evenwell.autoregistration.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.pandorasbox.app
+adb.exe shell pm uninstall --user 0 com.evenwell.pandorasbox
+adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
 
 echo.
 echo.
