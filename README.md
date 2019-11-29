@@ -4,7 +4,7 @@ A simple noob-friendly script that debloats your phone from the evenwell apps an
 
 ## What is evenwell and why should I care?
 Evenwell/FiH is chinese company. Specifically, They are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
-This Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. We all know the second generation devices from Nokia i.e Nokia 6.1, Nokia 6.1 Plus, Nokia 7 Plus etc are android one devices which are supposed to come with clean software and no bloat. On the surface, These devices have no bloat, But when you go digging deeper into settings and the system, You will encounter them evenwell apps. 
+This Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. We all know the second generation devices from Nokia i.e Nokia 6.1, Nokia 6.1 Plus, Nokia 7 Plus etc are android one devices which are supposed to come with clean software and no bloat. On the surface, These devices have no bloat, But when you go digging deeper into settings and the system, You will encounter these evenwell apps. 
 
 
 ## What do these apps do?
@@ -13,7 +13,8 @@ These apps are supposedly to maintain system stability and protect battery among
 
 
 ## Nokia has supposedly stopped using the evenwell services/apps, Why would you uninstall them?
-Simple, Because 1. I do not want any dead app that previously had an history of snooping in my system.
+Simple, Because -
+1. I do not want any dead app that previously had an history of snooping in my system.
 2. They are not supposed to be there in the first place.
 
 
@@ -57,7 +58,7 @@ Simple, Because 1. I do not want any dead app that previously had an history of 
 > No you will not. 
 
 5. Are there possibilities of bricking my device?
-> Yes, But it's rare and you need not be worried because I will test every version before releasing it on GitHub.
+> Yes, But it's very rare and you need not be worried because I will test every version before releasing it on GitHub.
 
 ## TO-Do List 
 
