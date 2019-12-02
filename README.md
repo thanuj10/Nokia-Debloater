@@ -67,6 +67,7 @@ Simple, Because -
 - [ ] Add options to debloat specific apps
 - [ ] Add options for rebooting to bootloader and recovery mode
 - [x] Add option to turn of Duraspeed on Mediatek chipset based devices
+- [ ] Port script over to Linux and probably Mac OS
 
 ## Screenshots
 
