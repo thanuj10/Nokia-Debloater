@@ -114,6 +114,7 @@ adb.exe shell pm uninstall --user 0 com.evenwell.pandorasbox
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
+adb.exe shell rm -r /data/dalvik-cache
 
 echo.
 echo.
