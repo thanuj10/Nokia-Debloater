@@ -3,6 +3,7 @@
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
 ##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You can potentially brick your phone and your only option to recover will be factory resetting.
+##### For the Linux Version of this script, Head to - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## What is evenwell and why should I care?
 Evenwell/FiH is chinese company. Specifically, They are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
@@ -45,6 +46,8 @@ Simple, Because -
 7. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
 
 >	On Linux
+Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
+
 1. Install adb-fastboot tools using the link above, or if you're running an Ubuntu based system, run the following command in the terminal - "sudo apt-get install android-tools-adb android-tools-fastboot"
 2. Download "debloat.sh" from the releases section
 3. Open a terminal in the location where you downloaded the debloater. For example, if your file is downloaded in "/home/user/downloads", open a terminal there, or open a regular terminal and run the command "cd /home/user/downloads/"
