@@ -11,7 +11,7 @@ This Evewell group were a business partner of Nokia/HMD and they were responsibl
 
 ## What do these apps do?
 These apps are supposedly to maintain system stability and protect battery among various other services/features. There are also telemetry apps that send data to the chinese. 
-**This is the reason I've decided to create this script.**
+**This is the reason this script has been created.**
 
 
 ## Nokia has supposedly stopped using the evenwell services/apps, Why would you uninstall them?
@@ -23,7 +23,7 @@ Simple, Because -
 ## Okay, You've convinced me. What do I need?
 1. A Nokia phone
 2. ADB/Platform tools from Google which you can get from here - https://developer.android.com/studio/releases/platform-tools
-3. My batch-script
+3. The Debloater script
 
 
 # USAGE
@@ -35,13 +35,23 @@ Simple, Because -
 5. Once enabled, Go to your PC
 
 > Prepping the script and ADB
+>	On Windows
 1. Download ADB from the the link above
 2. Extract the contents of the .zip into a folder named adb. (***BE SURE TO EXTRACT EVERYTHING FROM THE .ZIP INTO THE FOLDER***)
 3. Download the script from the releases section
 4. Move the script into the folder where you have extracted the platform tool/ADB
 5. Connect phone to your PC
-6. Double click the script and run
+6. Double click "batch-script" and run
 7. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
+
+>	On Linux
+1. Install adb-fastboot tools using the link above, or if you're running an Ubuntu based system, run the following command in the terminal - "sudo apt-get install android-tools-adb android-tools-fastboot"
+2. Download "debloat.sh" from the releases section
+3. Open a terminal in the location where you downloaded the debloater. For example, if your file is downloaded in "/home/user/downloads", open a terminal there, or open a regular terminal and run the command "cd /home/user/downloads/"
+4. Connect your phone to the PC.
+5. In the same terminal window from before, run the command "./debloat.sh"; To disable Duraspeed, run "./duraspeed.sh"
+6. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
+
 
 | If you are running adb for the first time, You might get an error like this - *No devices/emulators found*, If you did, Then please ensure that you have tapped the ok option on the prompt from your phone. 
 
@@ -68,8 +78,10 @@ Simple, Because -
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
 - [ ] Add options for rebooting to bootloader and recovery mode
-- [x] Add option to turn of Duraspeed on Mediatek chipset based devices
-- [ ] Port script over to Linux and probably Mac OS
+- [x] Add option to turn off Duraspeed on Mediatek chipset based devices
+- [x] Port script to Linux (thanks to @Sid127)
+- [ ] Combine Linux scripts into one script
+- [ ] Port script to MacOS
 
 ## Screenshots
 
