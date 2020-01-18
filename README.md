@@ -3,7 +3,7 @@
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
 ##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You can potentially brick your phone and your only option to recover will be factory resetting.
-##### For the Linux Version of this script, Head to - https://github.com/Sid127/Nokia-Debloater/releases
+##### For the Linux/Mac Version of this script, Head to - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## What is evenwell and why should I care?
 Evenwell/FiH is chinese company. Specifically, They are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
