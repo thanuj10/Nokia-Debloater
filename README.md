@@ -78,7 +78,7 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## TO-Do List 
 
-- [ ] Implement a way to re-install the debloated apps
+- [x] Implement a way to re-install the debloated apps
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
 - [ ] Add options for rebooting to bootloader and recovery mode
