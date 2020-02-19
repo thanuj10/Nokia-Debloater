@@ -68,7 +68,7 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 > Better Privacy and security, Possibly better battery life and performance
 
 3. Can I revert the changes?
-> Yes, You can revert by either manually installing all the apps debloated by the script, by factory resetting your device or selecting the *rebloat* option from the script. An option to revert back the changes will come in the future, Stay tuned!
+> Yes, You can revert by either manually installing all the apps debloated by the script, by factory resetting your device or selecting the *rebloat* option from the script.
 
 4. Will I lose data by debloating?
 > No you will not. 
@@ -84,8 +84,8 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 - [ ] Add options for rebooting to bootloader and recovery mode
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
 - [x] Port script to Linux (thanks to @Sid127)
-- [ ] Combine Linux scripts into one script
-- [ ] Port script to MacOS
+- [x] Combine Linux scripts into one script
+- [x] Port script to MacOS
 
 ## Screenshots
 
