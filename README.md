@@ -25,7 +25,7 @@ Simple, Because -
 1. A Nokia phone
 2. ADB/Platform tools from Google which you can get from here - https://developer.android.com/studio/releases/platform-tools
 3. The Debloater script
-4. Windows 10(7 does not detect nokia phones and the os is dead, RIP)
+4. Windows 10, If you're on Windows 7 or below download Adb/Fastboot tools version v28.0.01 or below.
 
 
 # USAGE
