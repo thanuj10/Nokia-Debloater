@@ -11,7 +11,8 @@ echo.
 echo  [1] Debloat
 echo  [2] Rebloat
 echo  [3] Disable Duraspeed
-echo  [4] Do it later
+echo  [4] Reboot Menu
+echo  [5] Exit
 echo.
 set /p choice= Enter your option: 
 
@@ -133,7 +134,7 @@ cls
 exit
 
 --------------------------------------------------------
-;Rebloat
+:Rebloat
 cls
 echo.
 echo Reinstalling all the debloated apps now.
@@ -250,8 +251,10 @@ echo  = Reboot Menu =
 echo 1. Normal System Reboot
 echo 2. Reboot to recovery
 echo 3. Reboot to bootloader
+echo.
 
-set /p choice= Enter your option:
+set /p choice= Enter your option: 
+
 if '%choice%'=='1' goto Normal System Reboot
 if '%choice%'=='2' goto Reboot to recovery
 if '%choice%'=='3' goto Reboot to bootloader
@@ -304,6 +307,5 @@ exit
 
 
 ------------------------------------------------------
-
 
 
