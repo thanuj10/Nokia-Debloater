@@ -118,8 +118,6 @@ adb.exe shell pm uninstall --user 0 com.evenwell.pandorasbox
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
-adb.exe shell rm -rf /data/dalvik-cache
-adb.exe shell rm -rf /data/cache
 
 echo.
 echo.
@@ -221,9 +219,6 @@ adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver.data.
 adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver
 
-adb shell rm -rf data/dalvik-cache
-adb shell rm -rf data/cache
-		
 --------------------------------------------------------
 :Disable Duraspeed
 cls
