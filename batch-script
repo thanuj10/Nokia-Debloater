@@ -120,10 +120,20 @@ adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.over
 adb.exe shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
 adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.d.base.s600e0
 adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.d.base.s600e0
+adb.exe shell pm uninstall --user 0 com.evenwell.whitebalance
+adb.exe shell pm uninstall --user 0 com.evenwell.whitebalance.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.fqc
+adb.exe shell pm uninstall --user 0 com.evenwell.SetupWizard
+adb.exe shell pm uninstall --user 0 com.evenwell.SetupWizard.overlay.d.base.s600ww
+adb.exe shell pm uninstall --user 0 com.evenwell.factorywizard
+adb.exe shell pm uninstall --user 0 com.evenwell.factorywizard.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.foxlauncher.partner
+adb.exe shell pm uninstall --user 0 com.hmdglobal.datago
+adb.exe shell pm uninstall --user 0 com.hmdglobal.datago.overlay.base
 
 echo.
 echo.
-echo The debloating is now finished. Press enter to reboot your phone.
+echo The debloating is now finished. Press any key to reboot your phone.
 pause
 echo Rebooting Phone...
 echo.
@@ -222,6 +232,28 @@ adb.exe shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver.d
 adb.exe shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver
 adb.exe shell cmd install-existing --user 0 com.evenwell.powersaving.g3.overlay.d.base.s600e0
 adb.exe shell cmd install-existing --user 0 com.evenwell.batteryprotect.overlay.d.base.s600e0
+adb.exe shell cmd install-existing --user 0 com.evenwell.whitebalance
+adb.exe shell cmd install-exitsing --user 0 com.evenwell.whitebalance.overlay.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.SetupWizard
+adb.exe shell cmd install-existing --user 0 com.evenwell.SetupWizard.overlay.d.base.s600ww
+adb.exe shell cmd install-existing --user 0 com.evenwell.fqc
+adb.exe shell cmd install-existing --user 0 com.evenwell.factorywizard
+adb.exe shell cmd install-existing --user 0 com.evenwell.factorywizard.overlay.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.foxlauncher.partner
+adb.exe shell cmd install-existing --user 0 com.hmdglobal.datago
+adb.exe shell cmd install-existing --user 0 com.hmdglobal.datago.overlay.base
+
+echo.
+echo.
+echo The rebloating process is now finished. Press any key to reboot your phone. 
+echo. 
+echo Your phone is rebooting... 
+adb.exe shell reboot
+echo. 
+echo. 
+pause
+cls
+exit
 
 --------------------------------------------------------
 :Disable Duraspeed
