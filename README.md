@@ -1,5 +1,3 @@
-## Project currently on pause as my computer is broken. I will definitely resume the project once I fix my PC. 
-
 # Nokia-Debloater
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
