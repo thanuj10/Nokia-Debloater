@@ -1,12 +1,13 @@
 # Nokia-Debloater
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
-##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You can potentially brick your phone and your only option to recover will be factory resetting.
+##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You could potentially brick your phone and your only option to recover will be factory resetting.
+
 ##### For the Linux/Mac Version of this script, Head to - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## What is evenwell and why should I care?
 Evenwell/FiH is chinese company. Specifically, They are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
-This Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. We all know the second generation devices from Nokia i.e Nokia 6.1, Nokia 6.1 Plus, Nokia 7 Plus etc are android one devices which are supposed to come with clean software and no bloat. On the surface, These devices have no bloat, But when you go digging deeper into settings and the system, You will encounter these evenwell apps. 
+This Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. On the surface, The first and second generation Nokia devices have no bloat, But when you go digging deeper into settings and the system, You will encounter these evenwell apps. 
 
 
 ## What do these apps do?
@@ -61,20 +62,23 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## F.A.Q
 
-1. Do I need root, Unlocked bootloader etc?
+1. Do I need root or an unlocked bootloader?
 > No
 
 2. What can I expect from the debloating measures?
 > Better Privacy and security, Possibly better battery life and performance
 
 3. Can I revert the changes?
-> Yes, You can revert by either manually installing all the apps debloated by the script, by factory resetting your device or selecting the *rebloat* option from the script.
+> Yes, You have few options
+ - Using the Rebloat option from the script
+ - Reinstalling all the rebloated apps that were purged
+ - Factory Reset
 
 4. Will I lose data by debloating?
 > No you will not. 
 
 5. Are there possibilities of bricking my device?
-> Yes, But it's very rare and you need not be worried because I will test every version before releasing it on GitHub.
+> Extremely Rare.
 
 ## TO-Do List 
 
