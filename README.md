@@ -93,11 +93,14 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## Screenshots
 
-![Screenshot (1)](https://user-images.githubusercontent.com/43717642/68009819-f8c6e380-fca8-11e9-8cb3-9071807dc99e.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/43717642/84499311-fbbe9380-accf-11ea-9f51-e7cedae51c3e.png)
+| App Opening screen
 
-![Screenshot (2)](https://user-images.githubusercontent.com/43717642/68009823-fb293d80-fca8-11e9-828f-5c0fae57f3c4.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/43717642/84499338-0547fb80-acd0-11ea-8326-ff896254fe10.png)
+| The main menu
 
-![Screenshot (3)](https://user-images.githubusercontent.com/43717642/68009826-fc5a6a80-fca8-11e9-9756-4586e4f8577e.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/43717642/84499341-0711bf00-acd0-11ea-828a-5d5a68bf0775.png)
+| Debloating
 
 
 ## Further reading 
