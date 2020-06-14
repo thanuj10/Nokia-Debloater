@@ -34,8 +34,7 @@ echo.
 echo.
 echo While this script deletes most of the evenwell apps, Some of them will still be in the system. Mostly because they seem important.
 echo.
-echo.
-echo I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you can brick your phone. 
+echo WARNING! By using this script, You hereby agree you are responsible for any damages that occur to your phone. I, the author will absolutely under no circumstances take responsibilty if you manage to brick your phone.
 echo.
 pause
 
@@ -130,6 +129,11 @@ adb.exe shell pm uninstall --user 0 com.evenwell.factorywizard.overlay.base
 adb.exe shell pm uninstall --user 0 com.evenwell.foxlauncher.partner
 adb.exe shell pm uninstall --user 0 com.hmdglobal.datago
 adb.exe shell pm uninstall --user 0 com.hmdglobal.datago.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.phone.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.settings.data.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.SetupWizard.overlay.base
+adb.exe shell pm uninstall --user 0 com.gti.qualcomm.datastatusnotification
+
 
 echo.
 echo.
@@ -242,6 +246,11 @@ adb.exe shell cmd install-existing --user 0 com.evenwell.factorywizard.overlay.b
 adb.exe shell cmd install-existing --user 0 com.evenwell.foxlauncher.partner
 adb.exe shell cmd install-existing --user 0 com.hmdglobal.datago
 adb.exe shell cmd install-existing --user 0 com.hmdglobal.datago.overlay.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.phone.overlay.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.settings.overlay.data.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.SetupWizard.overlay.base
+adb.exe shell cmd install-existing --user 0 com.qti.qualcomm.datastatusnotification
+
 
 echo.
 echo.
