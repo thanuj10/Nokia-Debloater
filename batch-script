@@ -133,6 +133,10 @@ adb.exe shell pm uninstall --user 0 com.evenwell.phone.overlay.base
 adb.exe shell pm uninstall --user 0 com.evenwell.settings.data.overlay.base
 adb.exe shell pm uninstall --user 0 com.evenwell.SetupWizard.overlay.base
 adb.exe shell pm uninstall --user 0 com.gti.qualcomm.datastatusnotification
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.d.base.s600id
+adb.exe shell pm uninstall --user 0 com.evenwell.powersaving.g3.overlay.base
+adb.exe shell pm uninstall --user 0 com.evenwell.batteryprotect.overlay.d.base.s600id
+adb.exe shell pm uninstall --user 0 com.evenwell.nps.overlay.d.base.s600id
 
 
 echo.
@@ -250,6 +254,10 @@ adb.exe shell cmd install-existing --user 0 com.evenwell.phone.overlay.base
 adb.exe shell cmd install-existing --user 0 com.evenwell.settings.overlay.data.base
 adb.exe shell cmd install-existing --user 0 com.evenwell.SetupWizard.overlay.base
 adb.exe shell cmd install-existing --user 0 com.qti.qualcomm.datastatusnotification
+adb.exe shell cmd install-existing --user 0 com.evenwell.powersaving.g3.overlay.d.base.s600id
+adb.exe shell cmd install-existing --user 0 com.evenwell.powersaving.g3.overlay.base
+adb.exe shell cmd install-existing --user 0 com.evenwell.batteryprotect.overlay.d.base.s600id
+adb.exe shell cmd install-existing --user 0 com.evenwell.nps.overlay.d.base.s600id
 
 
 echo.
