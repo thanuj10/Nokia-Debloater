@@ -1,17 +1,17 @@
 # Nokia-Debloater
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
-##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You could potentially brick your phone and your only option to recover will be factory resetting.
+##### Author's Note - I tried adding apps to debloat from the Chinese ROM, yet they come back into the system after debloating and a subsequent reboot. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, you could potentially brick your phone and your only option to recover will be factory resetting.
 
 ##### For the Linux/Mac Version of this script, Head to - https://github.com/Sid127/Nokia-Debloater/releases
 
 ## What is evenwell and why should I care?
-Evenwell/FiH is chinese company. Specifically, They are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
-This Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. On the surface, The first and second generation Nokia devices have no bloat, But when you go digging deeper into settings and the system, You will encounter these evenwell apps. 
+Evenwell/FiH is chinese company. Specifically, they are a subsidary of the massive Foxxconn group that manufactures consumer electronics for sale around the world. 
+Evewell group were a business partner of Nokia/HMD and they were responsible for manufacturing and building the software on these phones. On the surface, yhe first and second generation Nokia devices have no bloat, but when you go digging deeper into settings and the system, you will encounter these evenwell apps. 
 
 
 ## What do these apps do?
-These apps are supposedly to maintain system stability and protect battery among various other services/features. There are also telemetry apps that send data to the chinese. 
+These apps are supposedly to maintain system stability and protect battery among various other services/features. There are also telemetry apps that send data back to Evenwell. 
 **This is the reason this script has been created.**
 
 
@@ -47,8 +47,7 @@ Simple, Because -
 6. Double click "batch-script" and run
 7. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
 
->	On Linux
-Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
+>	For Linux, get the script here - https://github.com/Sid127/Nokia-Debloater/releases
 
 1. Install adb-fastboot tools using the link above, or if you're running an Ubuntu based system, run the following command in the terminal - "sudo apt-get install android-tools-adb android-tools-fastboot"
 2. Download "debloat.sh" from the releases section
@@ -57,8 +56,7 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 5. In the same terminal window from before, run the command "./debloat.sh"; To disable Duraspeed, run "./duraspeed.sh"
 6. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
 
-
-| If you are running adb for the first time, You might get an error like this - *No devices/emulators found*, If you did, Then please ensure that you have tapped the ok option on the prompt from your phone. 
+##### If you are running adb for the first time, you might get an error that goes - *No devices/emulators found*, If you did, then please ensure that you have allowed debugging permissions for ADB from your phone. 
 
 ## F.A.Q
 
@@ -66,7 +64,7 @@ Get the linux version here - https://github.com/Sid127/Nokia-Debloater/releases
 > No
 
 2. What can I expect from the debloating measures?
-> Better Privacy and security, Possibly better battery life and performance
+> Better Privacy and security, possibly better battery life and performance
 
 3. Can I revert the changes?
 > Yes, You have few options
