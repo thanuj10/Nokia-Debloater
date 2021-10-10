@@ -91,15 +91,20 @@ Simple, Because -
 
 ## Screenshots
 
-![Screenshot (9)](https://user-images.githubusercontent.com/43717642/84499311-fbbe9380-accf-11ea-9f51-e7cedae51c3e.png)
-| App Opening screen
+![Screenshot (4)](https://user-images.githubusercontent.com/43717642/136686157-45d4b4aa-dca7-4ef4-b12a-ff769e2df6d4.png)
+> Main screen
 
-![Screenshot (10)](https://user-images.githubusercontent.com/43717642/84499338-0547fb80-acd0-11ea-8326-ff896254fe10.png)
-| The main menu
 
-![Screenshot (11)](https://user-images.githubusercontent.com/43717642/84499341-0711bf00-acd0-11ea-828a-5d5a68bf0775.png)
-| Debloating
+![Screenshot (5)](https://user-images.githubusercontent.com/43717642/136686158-809cdcb3-6cee-4217-8f3c-efae04987f50.png)
+> Options
 
+
+![Screenshot (7)](https://user-images.githubusercontent.com/43717642/136686160-73792ae9-e236-4352-997d-f0d4df1ef929.png)
+> Debaloting process
+
+
+![Screenshot (8)](https://user-images.githubusercontent.com/43717642/136686163-c83b2912-e039-44f8-92f6-2a4a10aab78b.png)
+> Endgame
 
 ## Further reading 
 
