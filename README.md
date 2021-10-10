@@ -39,7 +39,7 @@ Simple, Because -
 > Prepping the script and ADB
 >	On Windows
 1. Download ADB from the the link above
->  If Chrome labels it as a harmful file, Select on "Keep". I can 100% assure you this is not a harmful file.
+>  If your browser warns the .bat is a harmful file, Select on "Ignore or Keep". I can 100% assure you this is not a harmful file.
 2. Extract the contents of the .zip into a folder named adb. (***BE SURE TO EXTRACT EVERYTHING FROM THE .ZIP INTO THE FOLDER***)
 3. Download the script from the releases section
 4. Move the script into the folder where you have extracted the platform tool/ADB
