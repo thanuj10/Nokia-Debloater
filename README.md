@@ -1,3 +1,6 @@
+# THIS PROJECT IS NO LONGER ACTIVELY DEVELOPED OR MAINTAINED.
+### This project is no long needed for newer Nokia phones as they don't come with Evenwell apps. You can still download and use the script but no further support will be provided.
+
 # Nokia-Debloater
 A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
 
